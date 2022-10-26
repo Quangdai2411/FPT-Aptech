@@ -1,0 +1,113 @@
+body{
+  font-family: Arial;
+  font-size: 12px;
+}
+
+#Dai{
+  height: 700px;
+  width: 600px;
+  border: 2px solid #1a0202;
+  margin: 40px auto;
+  background-color: #ffffff;
+  display: block;
+  background-color: #1ab2b7;
+}
+
+#page{
+  height: 600px;
+  width: 450px;
+  border: 1px solid #1a0202;
+  margin: 45px auto;
+  display: block;
+  background-color: #ffffff;
+}
+
+
+#logo{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+  background-color: purple;
+  color: white;
+  font-family: Arial;
+}
+
+#kiemtra{
+  margin-top: 5px;
+  margin-left: 80px;
+  color: red;
+}
+
+#kiemtra2{
+  margin-top: 5px;
+  margin-left: 80px;
+  color: red;
+
+}#kiemtra3{
+  margin-top: 5px;
+  margin-left: 80px;
+  color: red;
+}
+
+#kiemtra4{
+  margin-top: 5px;
+  margin-left: 80px;
+  color: red;
+}
+
+
+label {
+  color: #1a0202;
+  display: block;
+  margin: 10px 30px 10px 50px;
+  font-size: 18px;
+  padding: 8px;
+}
+
+
+input[type='text'], input[type='password']{
+  background-color: rgba(37, 35, 35, 0.16);
+  color: #100f0f;
+  font-family: 'Oswald', 'Futura', sans-serif;
+  font-size: 18px;
+  width: 70%;
+  padding: 4px 6px;
+  border: 1px solid #999;
+  margin-left: 20px;
+}
+.terms{
+  line-height: 35px;
+  margin-left: 75px;
+  color: black;
+}
+
+.box{
+  width: 360px;
+  height: 35px;
+  margin-top: 5px;
+  font-family: verdana;
+  font-size: 12px;
+}
+
+.submit{
+  text-align: center;
+  border: none;
+  color: white;
+  width: 330px;
+  height: 35px;
+  background: purple;
+  margin-left: 80px;
+}
+
+
+p{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+div.form img{
+  margin-left: 30px;
+}

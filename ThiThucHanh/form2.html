@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thi Thực Hành</title>
+    <link rel="stylesheet" href="CSS/form.css">
+    <link rel="stylesheet" href="CSS/jquery-3.6.1.min.js">
+</head>
+<body>
+    <div id="Dai">
+    <div id="page">
+        <div id="logo">
+            <img height="30px" src="img/icons8-story-book-48.png" alt="">
+            <h1>REGISTER</h1>
+        </div>
+        <form method="post" action="http://www.example.org/register">
+            <div class="form">
+                <label for="username"></label>
+                <img height="30px" src="img/icons8-male-user-64.png" alt=""><input type="text" id="username"  placeholder="Username" onblur="checkUsername()" />
+                <div id="kiemtra"></div>
+                <label for="password"></label>
+                <img src="img/icons8-password-30.png" alt=""><input type="password" placeholder="••••••" id="password" onblur="checkPw()">
+                <div id="kiemtra2"></div>
+                <label for="password2"></label>
+                <img src="img/icons8-password-30.png" alt=""><input type="password" id="password2" placeholder="•••••••••" onblur="checkPw2()"/>
+                <div id="kiemtra3"></div>
+                <label for="gmail"></label>
+                <img src="img/icons8-gmail-logo-32.png" alt=""><input type="text" id="gmail" placeholder="E-mail" onblur="checkEmail()">
+                <div id="kiemtra4"></div>
+                <div class="box terms">
+                    <input type="checkbox"> I accept to the Terms of Service
+                </div>
+                <div class="box">
+                    <input type="Submit" class="submit" value="SIGN UP">
+                </div>
+        </form>
+            <p>Already a member? <a href="#">Login Here</a></p>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="JS/form.js"></script>
+</html>
