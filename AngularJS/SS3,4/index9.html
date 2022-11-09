@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+</head>
+<body ng-app="spApp">
+    <h1>ng-include directive</h1>
+    <div ng-controller="SPController" class="container">
+    <div ng-include="'mainContent.html'"></div>
+    <div ng-include="'sideBar.html'"></div>
+    </div>
+    <div style="background-color: lightblue">
+        <h3>Lessons</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, ducimus ipsam itaque maxime quibusdam velit? Aliquam corporis doloremque eius, hic id ipsa iure laboriosam laborum natus non possimus quis, voluptatibus!</p>
+    </div>
+    <div class="sidebar" style="background-color: lightyellow">
+        <h3>Toturials list(sidebar)</h3>
+        <li>
+            A<br>
+            B<br>
+            C<br>
+            D<br>
+        </li>
+    </div>
+</body>
+<script>
+    var MyApp = angular.module('spApp', []);
+    MyApp.controller("SPController", function ($scope){
+        $scope.quantity = 1;
+        $scope.price = 9.99;
+    });
+</script>
+</html>

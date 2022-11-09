@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+</head>
+<body ng-app>
+    <h1>AngularJS Number Filler</h1>
+    Enter the amount to format: <input type="text" ng-model="amount" /> <br />
+
+    10000  | number = {{10000 | number}} <br  />
+    amount | number = {{amount | number}} <br  />
+    amount | number:2 = {{amount | number:2}} <br  />
+    amount | number:4 = {{amount | number:4}} <br  />
+    amount | number = <span ng-bind="amount | number"></span>
+</body>
+</html>
