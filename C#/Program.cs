@@ -5,17 +5,27 @@ class Program
     {
         Atomic at = new Atomic();
         int i = 0;
-        System.Console.WriteLine("Atomic Information");
-        System.Console.WriteLine("==================");
+        int x;
+
         do
         {
-            i++;
-            at.accept();
-        } while (i != 3);
-        System.Console.WriteLine("No Sym Name Weight");
-        System.Console.WriteLine("-----------------------------");
-        at.display();
-
-
+            System.Console.Write("Enter Selection : ");
+            x = Convert.ToInt32(System.Console.ReadLine());
+            switch (x)
+            {
+                case 1:
+                    System.Console.WriteLine("Atomic Information");
+                    System.Console.WriteLine("==================");
+                    at.accept();
+                    break;
+                case 2:
+                    System.Console.WriteLine("------------------");
+                    at.display();
+                    break;
+                default:
+                    System.Console.WriteLine("Please re-enter");
+                    break;
+            }
+        }while (x != 3);
     } 
 }

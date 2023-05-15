@@ -42,8 +42,9 @@ class Atomic
     {
         foreach(Atomic at in arr)
         {
-            System.Console.WriteLine(at.number + " " + at.symbol + " " + at.name + at.weight);
+            System.Console.WriteLine(at.number + " " + at.symbol + " " + at.name + " " + at.weight);
         }
+        arr.Clear();
     }
 }
 
