@@ -26,6 +26,6 @@ class Program
                     System.Console.WriteLine("Please re-enter");
                     break;
             }
-        }while (x != 3);
+        }while (x != 10);
     } 
 }
