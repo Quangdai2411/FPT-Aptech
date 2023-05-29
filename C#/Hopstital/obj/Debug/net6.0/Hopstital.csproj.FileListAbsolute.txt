@@ -1,0 +1,15 @@
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\bin\Debug\net6.0\Hopstital.exe
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\bin\Debug\net6.0\Hopstital.deps.json
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\bin\Debug\net6.0\Hopstital.runtimeconfig.json
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\bin\Debug\net6.0\Hopstital.dll
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\bin\Debug\net6.0\Hopstital.pdb
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\Hopstital.csproj.AssemblyReference.cache
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\Hopstital.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\Hopstital.AssemblyInfoInputs.cache
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\Hopstital.AssemblyInfo.cs
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\Hopstital.csproj.CoreCompileInputs.cache
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\Hopstital.dll
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\refint\Hopstital.dll
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\Hopstital.pdb
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\Hopstital.genruntimeconfig.cache
+C:\Users\QUANG DAI\source\repos\Demo\Hopstital\obj\Debug\net6.0\ref\Hopstital.dll
