@@ -81,7 +81,7 @@ class CheckOutController extends Controller
         $vnp_Amount = $request->get('vnp_Amount');
 
 
-        //2. Kiểm tra ết quả giao dịch trả về từ VMPay
+        //2. Kiểm tra ết quả giao dịch trả về từ VNPay
         if($vnp_ResponseCode != null) {
           //  Nếu thành công
             if ($vnp_ResponseCode == 00) {
